@@ -153,6 +153,7 @@ body {
   transition: color 250ms; 
   color: var(--accent-color);
   position: relative;
+  transition: color 250ms;
 }
 .studio{
   color: var(--color-blue);
