@@ -152,6 +152,7 @@ body {
   letter-spacing: 0.02em;
   position: relative;
   color: var(--accent-color);
+  transition: color 250ms;
 }
 .item-header{
   padding-top: 32px;
@@ -192,6 +193,7 @@ color: var(--color-blue);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  transition: color 250ms;
 }
 .header-icon{
   fill: var(--color-grey);
@@ -229,6 +231,9 @@ a.link-grey:hover {
 }
 .item-btn:not(:last-child) {
   margin-right: 9px;
+}
+.item-btn{
+  transition: color 250ms;
 }
 .btn:hover {
   background-color: var(--color-blue);
@@ -360,6 +365,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
   line-height: 1.71;
   letter-spacing: 0.03em;
     color: var(--color-grey);
+  transition: color 250ms;
 }
 .link-footer-street{
   display: flex;
@@ -368,6 +374,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-white);
+  transition: color 250ms;
 }
 .footer-container {
   display: flex;
@@ -403,6 +410,7 @@ height: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: background-color 250ms;
 }
 .footer-icon{
   fill: var(--color-white);
@@ -431,21 +439,3 @@ a.link-footer:focus {
 }
 
 
-/*---------MODAL-----------*/
-
-.backdrop{
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.2);
-  position: fixed;
-  top: 0;
-}
-.modal{
-  min-width: 528px;
-  min-height: 581px;
-  background: #FFFFFF;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-0px 1px 1px rgba(0, 0, 0, 0.14), 
-0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
-}
